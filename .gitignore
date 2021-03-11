@@ -1,0 +1,11 @@
+.settings/org.eclipse.jdt.core.prefs
+.vscode/launch.json
+bin/Java_standard/ArrFunct_launcher.class
+bin/Java_standard/ArrFunct.class
+bin/Java_standard/Fibonacci.class
+bin/Java_standard/GraphicsTest.class
+bin/Java_standard/GraphicsTest$1.class
+bin/Java_standard/GraphicsTest2.class
+bin/Java_standard/HelloWorld.class
+bin/Java_standard/MatrixFunct.class
+bin/Java_standard/strFunct.class
