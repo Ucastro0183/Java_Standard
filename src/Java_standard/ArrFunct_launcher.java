@@ -20,32 +20,19 @@ public class ArrFunct_launcher extends ArrFunct {
         }
 
         
-        System.out.println("Original list: " + strList(list));
+        System.out.println("Original list: " + strArr(list));
 
         int copyList[] = copyArr(list);
 
-        System.out.println("Copied list: " + strList(copyList));
+        System.out.println("Copied list: " + strArr(copyList));
 
         if (IsOrdered(copyList)) {
             System.out.println("The list is already ordered.");
         } else {
             System.out.println("The list is unordered");
             OrderArr(copyList);
-            System.out.println("Ordered list: " + strList(copyList));
+            System.out.println("Ordered list: " + strArr(copyList));
         }
     }
 
-    private static String strList(int[] list)  {
-        String s = "[";
-        for (int i = 0; i<list.length; i++) {
-            s += list[i];
-            if (i==(list.length-1)) break;
-            s += ", ";
-        }
-        s += "]";
-        return s;
-    };
-
-
-        
 }
