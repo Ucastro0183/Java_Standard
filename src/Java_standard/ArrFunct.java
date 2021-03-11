@@ -168,4 +168,21 @@ public class ArrFunct {
 		return result;
 	}
 
+	/** 
+	 * <pre><b>public static String</b> strArr(int[] arr)</pre>
+	 * This method returns a String representation of the array of integers.<br><br>
+ 	 * @param arr
+ 	 * @return String
+	 */
+	public static String strArr(int[] arr)  {
+		String s = "[";
+		for (int i = 0; i<arr.length; i++) {
+			s += arr[i];
+			if (i==(arr.length-1)) break;
+			s += ", ";
+		}
+		s += "]";
+		return s;
+	};
+	
 }
